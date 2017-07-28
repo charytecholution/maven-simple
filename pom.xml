@@ -63,13 +63,13 @@
              <version>0.6.4.201312101107</version>
                  <executions>
                    <execution>
-                        <id>post-build</id>
+                        <id>install</id>
                         <goals>
                            <goal>prepare-agent</goal>
                          </goals>
                     </execution>
                     <execution>
-                         <id>build</id>
+                         <id>post-install</id>
                          <goals>
                            <goal>report</goal>
                         </goals>
